@@ -8,7 +8,7 @@ int[] fp = Array.ConvertAll(Console.ReadLine()!.Split(), int.Parse);
 System.Console.WriteLine("Введите координаты второй точки через пробел:");
 int[] sp = Array.ConvertAll(Console.ReadLine()!.Split(), int.Parse);
 
-//System.Console.WriteLine(Math.Round(Math.Sqrt(Math.Pow(fp[0]-sp[0], 2) + Math.Pow(fp[1]-sp[1], 2) ), 3));
+//System.Console.WriteLine(Math.Round(Math.Sqrt(Math.Pow(fp[0]-sp[0], 2) + Math.Pow(fp[1]-sp[1], 2) + Math.Pow(fp[2]-sp[2], 2) ), 3));
 int point1 = (int)Math.Pow(fp[0]-sp[0], 2);
 int point2 = (int)Math.Pow(fp[1]-sp[1], 2);
 int point3 = (int)Math.Pow(fp[2]-sp[2], 2);
