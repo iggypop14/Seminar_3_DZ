@@ -5,11 +5,16 @@
 // 23432 -> да
 Console.WriteLine("Введите пятизначное число: ");
 string num = Console.ReadLine();
-if(num[0] == num[4] && num[1] == num[3])
+//System.Console.WriteLine(num.Length);
+if(num.Length != 5)
 {
-    System.Console.WriteLine("Введённое число является полиномом");
+    System.Console.WriteLine("Неправильный ввод данных");
+}
+else if(num[0] == num[4] && num[1] == num[3])
+{
+    System.Console.WriteLine("Введённое число является палиндромом");
 }
 else
 {
-    System.Console.WriteLine("Введённое число не является полиномом");
+    System.Console.WriteLine("Введённое число не является палиндромом");
 }
